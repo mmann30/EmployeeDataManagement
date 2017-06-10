@@ -17,7 +17,7 @@ var config = {
     storageBucket: "employee-data-management-84072.appspot.com",
     messagingSenderId: "748982982788"
   };
-  
+
   firebase.initializeApp(config);
 
 var database = firebase.database();
