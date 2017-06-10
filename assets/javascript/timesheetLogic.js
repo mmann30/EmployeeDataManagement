@@ -10,13 +10,15 @@
 
 // 1. Initialize Firebase
 var config = {
-  apiKey: "AIzaSyA_QypGPkcjPtylRDscf7-HQl8ribnFeIs",
-  authDomain: "time-sheet-55009.firebaseapp.com",
-  databaseURL: "https://time-sheet-55009.firebaseio.com",
-  storageBucket: "time-sheet-55009.appspot.com"
-};
+    apiKey: "AIzaSyBtPwETMdGl7B3myc630vzko1hriRnhdfY",
+    authDomain: "employee-data-management-84072.firebaseapp.com",
+    databaseURL: "https://employee-data-management-84072.firebaseio.com",
+    projectId: "employee-data-management-84072",
+    storageBucket: "employee-data-management-84072.appspot.com",
+    messagingSenderId: "748982982788"
+  };
 
-firebase.initializeApp(config);
+  firebase.initializeApp(config);
 
 var database = firebase.database();
 
